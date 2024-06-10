@@ -1,0 +1,46 @@
+#root {
+  /*max-width: 1280px;*/
+  text-align: center;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+.logo {
+
+  height: 6em;
+  will-change: filter;
+  transition: filter 300ms;
+
+
+  /*animation: logo-spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;*/
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.polygon:hover {
+  filter: drop-shadow(0 0 3em #646cff);
+}
+  
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  
+.read {
+  color: #888;
+}
+  

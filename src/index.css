@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 3.3rem;
+  filter: drop-shadow(0 0px 3rem #646cff73);
+}
+
+body{
+  margin: 0px;
+}
+
+.countBtn {
+  border: solid;
+  color: aliceblue;
+  border-color: #646cff;
+
+  padding: 10px 15px;
+  
+  font-size: 20px;
+  font-weight: 900;
+
+  color: aliceblue;
+  background-color: #242424;
+
+  transition: all 0.3s ease 0s;
+}
+.countBtn:hover {
+  border-color: #646cff;
+  background-color: #646cff;
+  color: aliceblue;
+  cursor: pointer;
+
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+
+  filter: drop-shadow(0 0px .3em #646cff);
+}
+
+/*@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}*/
+
+footer {
+  margin: 0px;
+  width: 100%;
+
+  text-align: center;
+  position: fixed;
+
+  bottom: 0;
+
+  background-color: #242424;
+}
+
+.divSpace {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+a{
+  padding: .3rem;
+
+  color: #646cff;
+}
+
+
+button {
+  margin: .35rem;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 10px 15px;
+  
+  font-size: 15px;
+  font-weight: 900;
+
+  color: #242424;
+  background-color: #646cff;
+
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  cursor: pointer;
+
+  color: aliceblue;
+  background-color: #646cff;
+
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+.signin {
+  margin-top: 5rem;
+  padding: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 50%;
+
+  border-radius: 20px;
+  background-color: #292929;
+
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7);
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+input {
+  margin: .7rem;
+  padding: 6.5px;
+
+  border: none;
+  border-radius: 20px;
+
+  width: 35%;
+
+  color: #646cff;
+  font-size: 13px;
+}
